@@ -1,0 +1,15 @@
+/* # ID */
+#menu-topo{
+    width: 100%;
+    height: 40px;
+    background: orange;
+}
+#menu-topo ul{
+    width: 70%;
+    margin-left: 15%;
+}
+#menu-topo ul li{
+    width: 20%;
+    float: left;
+    text-align: center;
+}

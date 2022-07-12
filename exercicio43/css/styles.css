@@ -1,0 +1,17 @@
+.carousel{
+    width: 70%;
+    margin:  0 15%;
+
+}
+
+
+.moldura{
+    width: 90%;
+    margin:  0 5%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.moldura img{
+    width: 100%;
+}

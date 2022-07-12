@@ -1,0 +1,16 @@
+.caixa{
+    width: 500px;
+    height: 100px;
+    background: red;
+    margin: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.box-content{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.impar{
+    flex-direction: row;
+}

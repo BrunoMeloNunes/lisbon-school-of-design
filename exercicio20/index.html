@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio20</title>
+</head>
+<body>
+    <script>
+        /* comentar um bloco de codigo
+        javascript sempre com ; */
+        document.write("Ola Mundo!");
+        document.write("<br>");
+        document.write("Eu sou o Hugo");
+        document.write("<br>");
+
+        var nome;
+        primeiro_nome ="Maria";
+        apelido ="Silva";
+        nome_completo =primeiro_nome + " " + apelido;
+        /* guardar como numero sem aspas */
+        idade = 25;
+
+        mensagem ="O meu nome é "+ nome_completo+" e a minha idade é "+idade;
+
+        document.write(mensagem);
+
+        /* var nome = "Maria" */
+        /* var variavel */
+        /* com aspas vai aparecer a palavra dentro das aspas, sem aspas vai buscar a variavel*/nome
+
+        parcela_1 = 5;
+        parcela_2 = 6;
+        parcela_3 = 7;
+
+        soma = parcela_1+parcela_2+parcela_3;
+        /* + para somar ou strink, os outros * sao para numeros */
+        multiplicacao =parcela_1 * parcela_2;
+
+        divisao = parcela_3 / parcela_1;
+
+        sub = parcela_3 - parcela_1;
+        document.write("<br>");
+        document.write(sub);
+        document.write("<br>");
+
+        /* para ver se depois da divisao o resto é 0 ou nao */
+        par =parcela_1 % 2;
+        console.log("O valor do resto é "+par);
+
+
+        /*quando quero comparar tem de ser dois = , só um é para atribuir*/
+        if(par==0){
+            console.log("Entrei no Par");
+            document.write("É par");
+        } else{
+            console.log("Entrei no Impar");
+            document.write("É ímpar");
+        }
+
+
+
+    </script>
+</body>
+</html>

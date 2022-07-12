@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    /*height: 1000px;*/
+    background: orange;
+    float: left;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    /*background: rgb(255,255,255); */
+    background: #ffffff;
+    float: left;
+    padding-top: 15px;
+}
+.hero{
+    width: 100%;
+    height: 300px;
+    background-image: url(../assets/images/banner.jpg);
+    background-position: top center;
+    float: left;
+}
+.hero div{
+    width: 70%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    float: left;
+    text-align: center;
+}
+.hero div h1{
+    color: #25a2c3;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hero div button{
+background: #f6755e;
+color: #fff;
+font-weight: bold;
+border: none;
+padding: 10px;
+width: 120px;
+border-radius: 5px;
+text-transform: uppercase;
+}
+.hero div p{
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: #727a82;
+}
+
+
+
+
+
+.main-content{
+    width: calc(100% - 200px);
+    /*height: 600px;*/
+    /*background: green;*/
+    float: left;
+    padding: 100px;
+}
+.coluna{
+    width: 33.33%;
+    float: left;
+    /*height: 400px;*/
+    /*background: purple;*/
+}
+/*.coluna1{
+    background: #000;
+}*/
+/*.coluna2{
+    background: grey;
+}*/
+.coluna2 div{
+    text-align: center;
+}
+
+.moldura{
+    width: 350px;
+    height: 350px;
+    background: center;
+    margin: 0 auto;
+    border-radius: 175px;
+    overflow: hidden;
+}
+
+.moldura img{
+    width: 100%;
+}
+.coluna1 div, .coluna3 div{
+    /*background: pink;*/
+    padding: 20px;
+}
+.coluna h2{
+    font-weight: bold;
+    color: #25a2c3;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+/*.coluna3{
+    background: red;
+}*/
+.coluna3 div:first-child{
+    text-align: left;
+}
+.coluna p{
+    color: #727a82;
+}
+.coluna div:first-child{
+    margin-bottom: 50px;
+}
+.coluna div{
+    text-align: right;
+}
+
+
+
+
+
+.box-content{
+    width: calc(100% - 100px);
+    /*height: 200px;*/
+    background: #f6755e;
+    color: #fcdcd6;
+    float: left;
+    padding: 50px;
+}
+.box-content div{
+    text-align: center;
+    color: #fff;
+}
+
+.box-content h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.box-content .quote{
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.box-content span{
+    font-weight: bold;
+}
+
+
+
+
+
+section.article-section{
+    width: 100%;
+    /*height: 200px;*/
+    background: #fff;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding:50px 0*/
+}
+.article-section ul{
+    width: 70%;
+    float: left;
+    /*background-color: orange;*/
+    margin-left: 15%;
+}
+.article-section li{
+    width: calc(33.33% - 42px);
+    /*background: yellow;*/
+    /*height: 200px;*/
+    float: left;
+    margin:20px 20px;
+    border: solid 1px #dee1e3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.article-section .conteudo{
+    width: calc(100% - 20px);
+    padding: 20px;
+    /*background: orange;*/
+    min-height: 100px;
+    float: left;
+}
+.moldura-artigo{
+    width: 100%;
+}
+.moldura-artigo img{
+    width: 100%;
+    float: left;
+}
+.article-section .conteudo h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #25a2c3;
+}
+.article-section .conteudo p{
+    color: #767d85;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: #25a2c3;
+    float: left;
+}
+footer h2{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+footer ul{
+    width: 70%;
+    margin-left: 15%;
+}
+footer li{
+    width: 33.33%;
+    float: left;
+}
+footer ul li:first-child{
+    text-align: left;
+}
+footer ul li:nth-last-child(2){
+    text-align: center;
+}
+footer ul li:nth-last-child(3){
+    text-align: right;
+}
+
+
+
+
+
+
+header div{
+    text-align: center;
+}
+header div:first-child{
+    
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-size: 20px;
+    color: #e3e3e3;
+    margin-top: 8px;
+}
+header div:first-child span{
+    
+    padding: 5px;
+    border: 2px solid #e3e3e3;
+    border-radius: 5px;
+}
+header div:nth-child(2){
+    width: calc(100% - 200px);
+    color: #f6755e;
+    float: left;
+    font-family: 'Pacifico';
+    font-size: 25px;
+    font-weight: bold;
+}
+header div:nth-child(3){
+    width: 85px;
+    height: 100px;
+    float: right;
+    padding-right: 15px;
+}
+
+
+header div button{
+    width: 100%;
+    height: 35px;
+    background-color: #fff;
+    color: #727a82;
+    border: 2px solid #727a82;
+    border-radius: 10px;
+}

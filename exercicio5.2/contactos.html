@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio5</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <form action="recebe_dados.html" method="post">
+        <ul>
+            <li>
+                <label for="nome_inserido">Nome: </label>
+                <input type="text" name="nome_inserido" placeholder="inserir o nome" required>
+            </li>
+            <li>
+                <label for="email_inserido">Email: </label>
+                <input type="email" name="email_inserido" placeholder="inserir o email"> 
+            </li>
+            <li>
+                <label for="data_nascimento">Data de Nascimento</label>
+                <input name="data_nascimento" type="date">
+            </li>
+            <li>
+                <label>Genero</label><br>
+                M<input type="radio" name="genero" value="masculino">
+                F<input type="radio" name="genero" value="feminino">
+                Outro<input type="radio" name="genero" value="outro">
+            </li>
+            <li>
+                <label>Cidade</label>
+                <select name="cidade">
+                    <option value="0">escolha a cidade</option>
+                    <option value="1000">Lisboa</option>
+                    <option value="2000">Porto</option>
+                    <option value="3000">Coimbra</option>
+                </select>
+            </li>
+            <li>
+                <label>Interesses</label>
+                <ul>
+                    <li>Cinema <input type="checkbox" name="interesses[]" value="cinema"></li>
+                    <li>Musica <input type="checkbox" name="interesses[]" value="musica"></li>
+                </ul>
+            </li>
+            <li>
+                <label>Numero de carros em casa</label>
+                <input type="number" max="10">
+            </li>
+            <li>
+                <button>Enviar</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

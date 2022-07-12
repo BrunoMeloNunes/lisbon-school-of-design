@@ -1,0 +1,17 @@
+.slider-inicial{
+    width: 800px;
+}
+
+.slider-inicial img{
+    width: 100%;
+}
+
+
+.slider-final{
+    width: 800px;
+    margin-top: 20px;
+}
+
+.slider-final img{
+    width: 800px;
+}

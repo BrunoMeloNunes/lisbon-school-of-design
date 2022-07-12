@@ -1,0 +1,57 @@
+#top-menu{
+    width: 100%;
+    float: left;
+}
+
+#top-menu li{
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#top-menu a,
+#top-menu a:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+#top-menu #first-level li:hover, #top-menu #first-level li a:hover {
+    background: orange;
+    cursor: pointer;
+    color: #fff;
+    animation-name: animaMenu;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+
+
+#top-menu .dropdown li{
+    width: 100%;
+}
+
+.dropdown{
+    display: none;
+}
+
+#top-menu li:hover .dropdown{
+    display: block;
+}
+
+.dropdown li:hover{
+    background-color: blue;
+}
+
+@keyframes animaMenu {
+    from{
+        height: 0px;
+    }
+    
+    to{
+        height: 100px;
+    }
+}
+
+

@@ -1,0 +1,8 @@
+body{
+    background: red;
+}
+
+.slider-1, .slider-2{
+    width: 600px;
+    margin: 0 auto;
+}
